@@ -10,7 +10,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
         .navbar {
-            position: absolute;
+            position: fixed;
             width: 100%;
             top: 0;
             left: 0;

@@ -7,7 +7,7 @@
             </div>
             <button type="submit" class="btn btn-primary m-2">Submit</button>
             <button type="button" id="capitalizeText" class="btn btn-secondary m-2" disabled>Capitalize Text</button>
-            <button id="generateRandom" class="btn btn-secondary m-2" disabled>Generate Random Number</button>
+            <button type="button" id="generateRandom" class="btn btn-secondary m-2" disabled>Generate Random Number</button>
         </form>
         
         <div class="mt-4">
@@ -65,7 +65,7 @@
                 $.ajax({
                     url: 'process.asp',
                     type: 'POST',
-                    data: { random: true },
+                    data: { generateRandom: true },
                     success: function(response){
                         $('#randomNumberOutput').html('<div class="alert alert-info">Random Number: ' + response + '</div>');
                     },

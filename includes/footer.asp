@@ -1,15 +1,12 @@
 <style>
     .footer {
-        position: absolute;
+        position: fixed;
         bottom: 0;
         left: 0;
         width: 100%;
-        min-height: 100px;
-        background-color: #f8f9fa;
+        background-color: #f8f9fa; /* Light gray background */
         text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        padding:10px 0;
     }
 
     .footer hr {
