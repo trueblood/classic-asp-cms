@@ -19,8 +19,8 @@ randomNumber = GenerateRandomNumber(1, 100)
 If capitalize = "true" Then
     Response.Write CapitalizeText(name)
 ElseIf name <> "" Then
-Response.Write "Hello, " & Server.HTMLEncode(name) & "!"
+    Response.Write "Hello, " & Server.HTMLEncode(name) & "!"
 Else
-    Response.Write "Please enter a valid name. Random Number: " & randomNumber
+    Response.Write "Please enter a valid name. "
 End If
 %>
