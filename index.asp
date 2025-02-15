@@ -17,14 +17,10 @@
                 <input type="text" class="form-control" id="name" name="name" required>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
-            <button type="button" id="capitalizeText" class="btn btn-warning m-2">Capitalize Text</button>
+            <button type="button" id="capitalizeText" class="btn btn-secondary m-2">Capitalize Text</button>
         </form>
         <div id="response" class="mt-3"></div>
         
-        <button type="button" id="generateNumber" class="btn btn-success m-2">Generate Random Number</button>
-
-
-   
         <div class="mt-4">
             <h3>Processed Outputs:</h3>
     
@@ -58,6 +54,22 @@
                     },
                     error: function(){
                         $('#response').html('<div class="alert alert-danger">Error processing request</div>');
+                    }
+                });
+            });
+
+            $('#capitalizeText').click(function(){
+                var name = $('#name').val();
+                
+                $.ajax({
+                    url: 'process.asp',
+                    type: 'POST',
+                    data: { name: name, capitalize: true },
+                    success: function(response){
+                        $('#capitalizedOutput').html('<div class="alert alert-info">Capitalized Text: ' + response + '</div>');
+                    },
+                    error: function(){
+                        $('#capitalizedOutput').html('<div class="alert alert-danger">Error capitalizing text</div>');
                     }
                 });
             });
