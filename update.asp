@@ -93,9 +93,6 @@ Set Conn = Nothing
                 <input type="number" class="form-control" id="age" name="age" min="1" placeholder="Age" value="<%= Age %>" required>
             </div>
 
-
-
-
             <div class="mb-3 input-group">
                 <span class="input-group-text"><i class="fas fa-toggle-on"></i></span>
                 <select class="form-select" name="isActive" required>
