@@ -35,8 +35,8 @@
                 <span class="input-group-text"><i class="fas fa-toggle-on"></i></span>
                 <select class="form-select" id="isActive" name="isActive" required>
                     <option value="" selected disabled>Select Status</option>
-                    <option value="1">Active</option>
-                    <option value="0">Inactive</option>
+                    <option value="Active">Active</option>
+                    <option value="Inactive">Inactive</option>
                 </select>
             </div>
 
@@ -54,7 +54,7 @@
 </div>
 
 <!-- Include Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> -->
 
 <script>
 $(document).ready(function () {

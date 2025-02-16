@@ -8,6 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
     <style>
         .navbar {
             position: fixed;
@@ -28,7 +31,9 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="index.asp">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="grid.asp">Grid</a></li>
                         <li class="nav-item"><a class="nav-link" href="input.asp">Input</a></li>
+                        
                         <!-- <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
                         <li class="nav-item pe-3"><a class="nav-link" href="#">Contact</a></li> -->
                     </ul>
