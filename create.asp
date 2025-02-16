@@ -66,15 +66,20 @@ $(document).ready(function () {
         let age = $("#age").val().trim();
         let isActive = $("#isActive").val();
 
-        if (firstName === "" || lastName === "" || age === "" || isActive === null) {
-            alert("All fields are required!");
-            return;
-        }
+        // if (firstName === "" || lastName === "" || age === "" || isActive === null) {
+        //     alert("All fields are required!");
+        //     return;
+        // }
 
         $.ajax({
             url: "process.asp",
             type: "POST",
-            data: $(this).serialize(),
+            data: {
+                firstName: firstName,
+                lastName: lastName,
+                age: age,
+                isActive: isActive
+            },
             success: function (response) {
                 alert("User added successfully!");
                 window.location.href = "grid.asp"; 
