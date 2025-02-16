@@ -81,7 +81,6 @@ $(document).ready(function () {
                 isActive: isActive
             },
             success: function (response) {
-                alert("User added successfully!");
                 window.location.href = "grid.asp"; 
             }
         });

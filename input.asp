@@ -1,8 +1,8 @@
 <!--#include file="includes/header.asp"-->
-        <h1 class="display-4">Classic ASP - Input Form Playground</h1>
+        <h1 class="display-5">Classic ASP - Input Form Playground</h1>
         <form id="ajaxForm">
             <div class="mb-3 w-50 mx-auto">
-                <label for="name" class="form-label">Enter Some Text:</label>
+                <label for="name" class="form-label" style="font-size: 1.5rem;">Enter Some Text:</label>
                 <input type="text" class="form-control" id="name" name="name" required>
             </div>
             <button type="submit" class="btn btn-primary m-2">Submit</button>

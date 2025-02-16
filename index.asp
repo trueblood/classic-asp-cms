@@ -2,7 +2,12 @@
 
 <div class="container mt-5">
     <div class="jumbotron text-center">
-        <h1 class="display-4">Welcome to My Classic ASP Website</h1>
+        <h1 class="display-4">
+            <i class="fas fa-star text-primary"></i> <!-- Changed icon to star and made it blue -->
+        </h1>
+        <h1 class="display-4">
+            Welcome to My Classic ASP Website
+        </h1>
         <hr class="my-4">
         <p class="lead">Explore the features and enjoy the seamless experience of a classic yet powerful VBScript web application.</p>
     </div>

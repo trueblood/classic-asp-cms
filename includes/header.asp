@@ -24,7 +24,9 @@
     <div class="container mt-5">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand ps-3" href="#">My Classic ASP Website</a> <!-- Added left padding -->
+                <a class="navbar-brand ps-3" href="#"> <!-- Added left padding -->
+                <i class="fas fa-home"></i> My Classic ASP Website
+            </a> 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
