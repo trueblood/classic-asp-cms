@@ -25,8 +25,6 @@ ElseIf capitalize = "true" Then
     Response.Write CapitalizeText(name)
 ElseIf name <> "" Then
     Response.Write "Hello, " & Server.HTMLEncode(name) & "!"
-Else
-    Response.Write "Please enter a valid name."
 End If
 
 FirstName = Request.Form("firstName")
@@ -58,7 +56,5 @@ If firstName <> "" And lastName <> "" And age <> "" And isActive <> "" Then
     Set Conn = Nothing
 
     Response.Write "User added successfully!"
-Else
-    Response.Write "Please enter all required fields."
 End If
 %>
